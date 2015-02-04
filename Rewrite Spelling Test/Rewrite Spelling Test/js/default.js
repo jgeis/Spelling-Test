@@ -29,4 +29,7 @@
     };
 
     app.start();
+    var testStart = function () {
+
+    };
 })();
