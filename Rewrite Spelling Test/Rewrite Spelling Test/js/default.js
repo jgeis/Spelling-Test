@@ -29,7 +29,25 @@
     };
 
     app.start();
-    var testStart = function () {
-
-    };
 })();
+var testStart = function () {
+    // Get values of the text boxes
+    var w1 = document.getElementById("w1").value;
+    var w2 = document.getElementById("w2").value;
+    var w3 = document.getElementById("w3").value;
+    var w4 = document.getElementById("w4").value;
+    var w5 = document.getElementById("w5").value;
+    var w6 = document.getElementById("w6").value;
+    var w7 = document.getElementById("w7").value;
+    var w8 = document.getElementById("w8").value;
+    var w9 = document.getElementById("w9").value;
+    var w10 = document.getElementById("w10").value;
+    var w11 = document.getElementById("w11").value;
+    var w12 = document.getElementById("w12").value;
+    var w13 = document.getElementById("w13").value;
+    var w14 = document.getElementById("w14").value;
+    var w15 = document.getElementById("w15").value;
+    var w16 = document.getElementById("w16").value;
+    print();
+
+}
