@@ -65,12 +65,60 @@ var testStart = function () {
     var w16 = document.getElementById("w16").value;
     console.log("Successfully imported w16!");
 
+
     // Hide the text boxes
     var inputList = document.getElementById("inputList");
     inputList.hidden = "true"
+    document.getElementById("goTest").hidden = "true"
+    document.getElementById("headTest").hidden = "true"
 
     // Check the words
     if (w1 !== "") {
         
-    };
+    }
+    if (w2 !== "") {
+
+    }
+    if (w3 !== "") {
+
+    }
+    if (w4 !== "") {
+
+    }
+    if (w5 !== "") {
+
+    }
+    if (w6 !== "") {
+
+    }
+    if (w7 !== "") {
+
+    }
+    if (w8 !== "") {
+
+    }
+    if (w9 !== "") {
+
+    }
+    if (w10 !== "") {
+
+    }
+    if (w11 !== "") {
+
+    }
+    if (w12 !== "") {
+
+    }
+    if (w13 !== "") {
+
+    }
+    if (w14 !== "") {
+
+    }
+    if (w15 !== "") {
+
+    }
+    if (w16 !== "") {
+
+    }
 }

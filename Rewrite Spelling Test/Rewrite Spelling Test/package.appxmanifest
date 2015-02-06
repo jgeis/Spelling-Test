@@ -1,47 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-
-  <Identity
-    Name="bfa93e2f-06ab-42e0-87c9-9c6dea4ca25f"
-    Version="1.0.0.0"
-    Publisher="CN=Joseph" />
-
+  <Identity Name="bfa93e2f-06ab-42e0-87c9-9c6dea4ca25f" Version="1.0.0.0" Publisher="CN=Joseph Geis" />
   <Properties>
     <DisplayName>Rewrite Spelling Test</DisplayName>
-    <PublisherDisplayName>Joseph</PublisherDisplayName>
+    <PublisherDisplayName>Joseph Geis</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.3.0</OSMinVersion>
     <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application 
-      Id="App"
-      StartPage="default.html">
-
-      <m2:VisualElements
-        DisplayName="Rewrite Spelling Test"
-        Description="Rewrite Spelling Test"
-        ForegroundText="light"
-        BackgroundColor="#464646"
-        Square150x150Logo="images\Logo.png"
-        Square30x30Logo="images\SmallLogo.png">
-
-        <m2:SplashScreen Image="images\splashscreen.png" />
-
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="Rewrite Spelling Test" Description="Rewrite Spelling Test" ForegroundText="light" BackgroundColor="goldenrod" Square150x150Logo="images\logo150x150.png" Square30x30Logo="images\SmallLogo.png">
+        <m2:DefaultTile ShortName="Rewrite" DefaultSize="square150x150Logo" Square70x70Logo="images\Square70x70Logo.png" Wide310x150Logo="images\Wide310x150Logo.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\splashscreen.png" BackgroundColor="goldenrod" />
       </m2:VisualElements>
     </Application>
   </Applications>
-
-  <Capabilities>
-    <Capability Name="internetClient" />
-  </Capabilities>
-
 </Package>
