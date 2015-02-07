@@ -57,12 +57,16 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="default.html" />
+    <Content Include="images\badgeimage.scale-100.png" />
+    <Content Include="images\largeLogo.scale-100.png" />
     <Content Include="images\logo.scale-100.png" />
     <Content Include="images\logo150x150.scale-100.png" />
     <Content Include="images\smalllogo.scale-100.png" />
     <Content Include="images\splashscreen.scale-100.png" />
     <Content Include="images\Square70x70Logo.scale-100.png" />
     <Content Include="images\storelogo.scale-100.png" />
+    <Content Include="images\storemg.scale-100.png" />
+    <Content Include="images\tinyImage.scale-100.png" />
     <Content Include="images\Wide310x150Logo.scale-100.png" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />

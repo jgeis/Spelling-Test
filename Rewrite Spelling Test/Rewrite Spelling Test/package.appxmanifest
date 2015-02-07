@@ -4,7 +4,7 @@
   <Properties>
     <DisplayName>Rewrite Spelling Test</DisplayName>
     <PublisherDisplayName>Joseph Geis</PublisherDisplayName>
-    <Logo>images\storelogo.png</Logo>
+    <Logo>images\storemg.png</Logo>
   </Properties>
   <Prerequisites>
     <OSMinVersion>6.3.0</OSMinVersion>
@@ -15,13 +15,13 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <m2:VisualElements DisplayName="Rewrite Spelling Test" Description="Rewrite Spelling Test" ForegroundText="light" BackgroundColor="goldenrod" Square150x150Logo="images\logo150x150.png" Square30x30Logo="images\SmallLogo.png">
-        <m2:DefaultTile ShortName="Rewrite" DefaultSize="square150x150Logo" Square70x70Logo="images\Square70x70Logo.png" Wide310x150Logo="images\Wide310x150Logo.png">
+      <m2:VisualElements DisplayName="Rewrite Spelling Test" Description="Rewrite Spelling Test" ForegroundText="light" BackgroundColor="green" Square150x150Logo="images\logo150x150.png" Square30x30Logo="images\tinyImage.png">
+        <m2:DefaultTile ShortName="Rewrite" DefaultSize="square150x150Logo" Square70x70Logo="images\Square70x70Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" Square310x310Logo="images\largeLogo.png">
           <m2:ShowNameOnTiles>
             <m2:ShowOn Tile="square150x150Logo" />
           </m2:ShowNameOnTiles>
         </m2:DefaultTile>
-        <m2:SplashScreen Image="images\splashscreen.png" BackgroundColor="goldenrod" />
+        <m2:SplashScreen Image="images\splashscreen.png" BackgroundColor="green" />
       </m2:VisualElements>
     </Application>
   </Applications>
