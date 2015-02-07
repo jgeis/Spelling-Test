@@ -11,6 +11,8 @@
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
                 // TODO: This application has been newly launched. Initialize
                 // your application here.
+                //document.getElementById("resultHead").hidden = "true"
+                //document.getElementById("resultList").hidden = "true"
             } else {
                 // TODO: This application has been reactivated from suspension.
                 // Restore application state here.
@@ -31,6 +33,8 @@
     app.start();
 })();
 var testStart = function () {
+    // Setup Scoring
+    var score = 16;
     // Get values of the text boxes
     var w1 = document.getElementById("w1").value;
     console.log("Successfully imported w1!");
@@ -66,59 +70,78 @@ var testStart = function () {
     console.log("Successfully imported w16!");
 
 
-    // Hide the text boxes
+    // Hide and Show
     var inputList = document.getElementById("inputList");
     inputList.hidden = "true"
     document.getElementById("goTest").hidden = "true"
     document.getElementById("headTest").hidden = "true"
+    document.getElementById("resultHead").hidden = "false"
+    document.getElementById("resultList").hidden = "false"
+
 
     // Check the words
     if (w1 !== "") {
-        
+        score--;
+        document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
     }
     if (w2 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w3 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w4 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w5 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w6 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w7 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w8 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w9 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w10 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w11 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w12 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w13 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w14 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w15 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
     if (w16 !== "") {
-
-    }
+            score--;
+            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+        }
 }
