@@ -68,6 +68,7 @@ var testStart = function () {
     console.log("Successfully imported w15!");
     var w16 = document.getElementById("w16").value;
     console.log("Successfully imported w16!");
+    
 
 
     // Hide and Show
@@ -75,9 +76,7 @@ var testStart = function () {
     inputList.hidden = "true"
     document.getElementById("goTest").hidden = "true"
     document.getElementById("headTest").hidden = "true"
-    document.getElementById("resultHead").hidden = "false"
-    document.getElementById("resultList").hidden = "false"
-
+    document.getElementById("resultStyle").innerHTML = ""
 
     // Check the words
     if (w1 !== "") {
@@ -143,5 +142,6 @@ var testStart = function () {
     if (w16 !== "") {
             score--;
             document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
+    }
+
 }
