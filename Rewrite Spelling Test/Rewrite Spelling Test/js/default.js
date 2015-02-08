@@ -79,69 +79,69 @@ var testStart = function () {
     document.getElementById("resultStyle").innerHTML = ""
 
     // Check the words
-    if (w1 !== "") {
-        score--;
-        document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+    if (w1 !== "wear") {
+        //score--;
+        document.getElementById("c1").innerHTML("<str>"+ w1 +"</str> wear");
     }
-    if (w2 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w3 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w4 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w5 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w6 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w7 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w8 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w9 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w10 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w11 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w12 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w13 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w14 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w15 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
-        }
-    if (w16 !== "") {
-            score--;
-            document.getElementById("c1").innerHTML("<str>" + w1 + "</str> word");
+    if (w2 !== "put") {
+        //score--;
+        document.getElementById("c2").innerHTML("<str>" + w2 + "</str> put");
+    }
+    if (w3 !== "end") {
+        //score--;
+        document.getElementById("c3").innerHTML("<str>" + w3 + "</str> end");
+    }
+    if (w4 !== "does") {
+        //score--;
+        document.getElementById("c4").innerHTML("<str>" + w4 + "</str> does");
+    }
+    if (w5 !== "another") {
+        //score--;
+        document.getElementById("c5").innerHTML("<str>" + w5 + "</str> word");
+    }
+    if (w6 !== "head") {
+        //score--;
+        document.getElementById("c6").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w7 !== "bread") {
+        //score--;
+        document.getElementById("c7").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w8 !== "dead") {
+        //score--;
+        document.getElementById("c8").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w9 !== "sweat") {
+        //score--;
+        document.getElementById("c9").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w10 !== "deaf") {
+        //score--;
+        document.getElementById("c10").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w11 !== "spread") {
+        //score--;
+        document.getElementById("c11").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w12 !== "deal") {
+        //score--;
+        document.getElementById("c12").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w13 !== "room") {
+        //score--;
+        document.getElementById("c13").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w14 !== "break") {
+        //score--;
+        document.getElementById("c14").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w15 !== "weather") {
+        //score--;
+        document.getElementById("c15").innerHTML("<str>" + w1 + "</str> word");
+    }
+    if (w16 !== "soil") {
+        //score--;
+        document.getElementById("c16").innerHTML("<str>" + w1 + "</str> word");
     }
 
 }
